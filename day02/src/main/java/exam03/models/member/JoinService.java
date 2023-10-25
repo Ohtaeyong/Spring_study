@@ -13,7 +13,7 @@ public class JoinService {
     private Validator<Member> validator;
 
     @Autowired
-    @Qualifier("memberDao")
+    //@Qualifier("mDao")
     private MemberDao memberDao3;
 
 
