@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="AspectJ 의존성 추가(scope 제거)">
+    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="exam05 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/Message2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/config/AppCtx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/main/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/main/Ex02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam04/config/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam04/config/AppCtx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,13 +55,13 @@
       <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day02\src\main\java\exam03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exam04.main.Ex01">
-    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam01.main.Ex01" />
+  <component name="RunManager" selected="Application.Ex02">
+    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam05.main.Ex02" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam01.main.*" />
+          <option name="PATTERN" value="exam05.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exam05.main.Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam05.main.Ex01" />
+      <module name="day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam05.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex02" />
+        <item itemvalue="Application.exam05.main.Ex01" />
         <item itemvalue="Application.exam04.main.Ex01" />
         <item itemvalue="Application.exam03.main.Ex01" />
         <item itemvalue="Application.exam02.main.Ex01" />
-        <item itemvalue="Application.Ex01" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698220380301</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="exam05 추가">
+      <option name="closed" value="true" />
+      <created>1698221885141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698221885141</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +199,7 @@
     <MESSAGE value="day2 스프링 exam03" />
     <MESSAGE value="day03 exam03 완" />
     <MESSAGE value="AspectJ 의존성 추가(scope 제거)" />
-    <option name="LAST_COMMIT_MESSAGE" value="AspectJ 의존성 추가(scope 제거)" />
+    <MESSAGE value="exam05 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="exam05 추가" />
   </component>
 </project>
