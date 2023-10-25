@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="day03 exam03 완">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/config/AppCtx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/config/ManualBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/main/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/DuplicateMemberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/InfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/JoinService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/JoinValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/LoginValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/MemberNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/sub/MemberDao.java" afterDir="false" />
+    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="AspectJ 의존성 추가(scope 제거)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam04/config/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam04/config/AppCtx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698215289916</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="AspectJ 의존성 추가(scope 제거)">
+      <option name="closed" value="true" />
+      <created>1698220380301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698220380301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +172,7 @@
     <MESSAGE value="day2 스프링" />
     <MESSAGE value="day2 스프링 exam03" />
     <MESSAGE value="day03 exam03 완" />
-    <option name="LAST_COMMIT_MESSAGE" value="day03 exam03 완" />
+    <MESSAGE value="AspectJ 의존성 추가(scope 제거)" />
+    <option name="LAST_COMMIT_MESSAGE" value="AspectJ 의존성 추가(scope 제거)" />
   </component>
 </project>

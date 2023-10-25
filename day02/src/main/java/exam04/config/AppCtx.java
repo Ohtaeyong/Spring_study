@@ -11,8 +11,12 @@ import org.springframework.context.annotation.FilterType;
 @ComponentScan(basePackages = "exam04.models",
     excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes=ManualBean.class))
  */
+/*
 @ComponentScan(basePackages = "exam04.models",
     excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = MemberDao.class)) // 필터명을 직접 명시
+ */
+@ComponentScan(basePackages = "exam04.models",
+    excludeFilters = @ComponentScan.Filter(type = FilterType.ASPECTJ, pattern = "exam04.models..*Dao")) // Dao가 들어간 것 전부 배제
 public class AppCtx {
 
 //    @Bean
