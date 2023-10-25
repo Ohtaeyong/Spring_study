@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="day2 스프링 exam03">
+    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="day03 exam03 완">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/config/AppCtx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/config/ManualBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/main/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/DuplicateMemberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/InfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/JoinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/JoinValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/LoginValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/MemberNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/sub/MemberDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/main/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/main/Ex01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/InfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/InfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +30,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -37,22 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day02/src/main/java/exam03/models&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day02/src/main/java/exam04/models"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day02\src\main\java\exam04\models" />
+      <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day02\src\main\java\exam04\commons" />
+      <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day02\src\main\java\exam04" />
       <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day02\src\main\java\exam03\models" />
       <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day02\src\main\java\exam03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exam03.main.Ex01">
+  <component name="RunManager" selected="Application.exam04.main.Ex01">
     <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam01.main.Ex01" />
       <module name="day02" />
@@ -92,8 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exam04.main.Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam04.main.Ex01" />
+      <module name="day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam04.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exam04.main.Ex01" />
         <item itemvalue="Application.exam03.main.Ex01" />
         <item itemvalue="Application.exam02.main.Ex01" />
         <item itemvalue="Application.Ex01" />
@@ -125,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698137648820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day03 exam03 완">
+      <option name="closed" value="true" />
+      <created>1698215289916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698215289916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day2 스프링" />
     <MESSAGE value="day2 스프링 exam03" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2 스프링 exam03" />
+    <MESSAGE value="day03 exam03 완" />
+    <option name="LAST_COMMIT_MESSAGE" value="day03 exam03 완" />
   </component>
 </project>
