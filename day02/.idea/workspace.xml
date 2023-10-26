@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="exam05 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/Message2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/config/AppCtx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/main/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/main/Ex02.java" afterDir="false" />
+    <list default="true" id="fdcc4953-5b13-4984-9c8a-f6557516ca73" name="Changes" comment="마무리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day02/src/main/java/exam04/models"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day02/src/main/java/exam04/models&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day02\src\main\java\exam04\models" />
@@ -180,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698221885141</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="마무리">
+      <option name="closed" value="true" />
+      <created>1698223862041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698223862041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +203,7 @@
     <MESSAGE value="day03 exam03 완" />
     <MESSAGE value="AspectJ 의존성 추가(scope 제거)" />
     <MESSAGE value="exam05 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="exam05 추가" />
+    <MESSAGE value="마무리" />
+    <option name="LAST_COMMIT_MESSAGE" value="마무리" />
   </component>
 </project>
