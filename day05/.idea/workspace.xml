@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="1030 tomcat 10.1.14버전 오류로인한 15로 업그레이드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="spring마무리">
+      <change afterPath="$PROJECT_DIR$/sqls/member.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/AppCtx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam01/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam01/Ex04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/ServiceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/AppCtx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam01/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam01/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam01/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam01/Ex04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Ex01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
@@ -38,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day05/src/main/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "framework",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day05/src/main/java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day05\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main.Ex01">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat10">
     <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam01.Ex01" />
       <module name="day05" />
@@ -118,6 +127,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat10" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\Administrator\.SmartTomcat\day05\day05" />
+      <option name="contextPath" value="/day05" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="port" value="3000" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.14" />
+          <option name="path" value="$PROJECT_DIR$/../../../apache-tomcat-10.1.14" />
+          <option name="version" value="10.1.14.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="day05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Ex01" />
+      <item itemvalue="Application.Ex02" />
+      <item itemvalue="Application.Ex03" />
+      <item itemvalue="Application.Ex04" />
+      <item itemvalue="Application.main.Ex01" />
+      <item itemvalue="Smart Tomcat.Tomcat10" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main.Ex01" />
@@ -153,12 +197,44 @@
       <option name="project" value="LOCAL" />
       <updated>1698642353310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring마무리">
+      <option name="closed" value="true" />
+      <created>1698651721901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698651721901</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="framework" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1027 마무리(오류 발생확인)" />
     <MESSAGE value="1030 tomcat 10.1.14버전 오류로인한 15로 업그레이드" />
-    <option name="LAST_COMMIT_MESSAGE" value="1030 tomcat 10.1.14버전 오류로인한 15로 업그레이드" />
+    <MESSAGE value="spring마무리" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring마무리" />
   </component>
 </project>
