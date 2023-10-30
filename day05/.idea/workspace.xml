@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="1027 마무리(오류 발생확인)">
+    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="1030 tomcat 10.1.14버전 오류로인한 15로 업그레이드">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/AppCtx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam01/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam01/Ex04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/ServiceManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,7 @@
       <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day05\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex04">
+  <component name="RunManager" selected="Application.main.Ex01">
     <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam01.Ex01" />
       <module name="day05" />
@@ -97,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Ex01" />
+      <module name="day05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.Ex01" />
         <item itemvalue="Application.Ex04" />
         <item itemvalue="Application.Ex03" />
         <item itemvalue="Application.Ex02" />
@@ -123,11 +145,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698396667039</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1030 tomcat 10.1.14버전 오류로인한 15로 업그레이드">
+      <option name="closed" value="true" />
+      <created>1698642353310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698642353310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1027 마무리(오류 발생확인)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1027 마무리(오류 발생확인)" />
+    <MESSAGE value="1030 tomcat 10.1.14버전 오류로인한 15로 업그레이드" />
+    <option name="LAST_COMMIT_MESSAGE" value="1030 tomcat 10.1.14버전 오류로인한 15로 업그레이드" />
   </component>
 </project>

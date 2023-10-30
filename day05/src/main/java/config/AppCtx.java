@@ -2,11 +2,13 @@ package config;
 
 import org.apache.tomcat.jdbc.pool.DataSource; // DataSource 추가할때 잘 볼것
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 
 @Configuration
+@ComponentScan("models") // models를 포함한
 public class AppCtx {
 
     @Bean(destroyMethod = "close") // 알아서 외부에 정의된 자원 해제
