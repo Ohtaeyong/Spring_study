@@ -23,9 +23,8 @@ public class MemberController {
      */
 
     @GetMapping("/member/login")
-    public String login(RequestLogin form, Model model) {
-        model.addAttribute("message", "안녕하세요.");
+    public String login() {
 
-        return "member/login";
+        return "member/login"; // login.html
     }
 }
