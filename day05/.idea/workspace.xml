@@ -4,26 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="thymeleaf 설정">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/commons.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/commons_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="th:text 까지">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layouts/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/outlines/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/outlines/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/MvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "thymeleaf",
     "last_opened_file_path": "C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day05/src",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -230,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698737390624</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="th:text 까지">
+      <option name="closed" value="true" />
+      <created>1698742307448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698742307448</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +275,7 @@
     <MESSAGE value="spring마무리" />
     <MESSAGE value="framework 세팅 test" />
     <MESSAGE value="thymeleaf 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf 설정" />
+    <MESSAGE value="th:text 까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="th:text 까지" />
   </component>
 </project>
