@@ -1,25 +1,45 @@
 package controllers.member;
 
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/member")
+@RequiredArgsConstructor
 public class MemberController {
 
+    //@Autowired
+    private final JoinValidator joinValidator; // 생성자를 통해 초기화 -> @RequiredArgsConstructor -> final추가
+
     @GetMapping("/join") // /member/join
-    public String join() {
+    public String join(@ModelAttribute RequestJoin join) { // GET방식일때도 Model(속성추가)주입 // th:field를 쓰려면 추가
+
+//        RequestJoin requestJoin = new RequestJoin();
+//        model.addAttribute("requestJoin", requestJoin); // 명칭만 앞에 소문자, 어노테이션으로
 
         return "member/join";
     }
 
     @PostMapping("/join")
     //@RequestMapping(method = {RequestMethod.POST, RequestMethod.PATCH}, path ="/member/join")
-    public String joinPs() {
+    public String joinPs(@Valid RequestJoin join, Errors errors /*Model model*/) {
 
-        System.out.println("유입?");
+        //model.addAttribute("requestJoin", join); 지워도 join.html에서 자동 추가
+
+        joinValidator.validate(join, errors);
+
+        if (errors.hasErrors()) {
+            // 검증 실패시 유입
+            return "member/join";
+        }
+
+        // 검증 성공 -> 회원가입 처리
 
         return "redirect:/member/login";
     }
