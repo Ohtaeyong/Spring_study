@@ -31,4 +31,9 @@ public class RequestJoin {
 
     @AssertTrue
     private boolean agree;
+
+    //private String[] hobby; // 취미
+    //private List<String> hobby; // 배열로 해도 되고 collection으로 해도됨
+
+    private Adress addr; // addr.address, addr.zipcode
 }

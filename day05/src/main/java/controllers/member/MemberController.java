@@ -1,13 +1,13 @@
 package controllers.member;
 
+import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import models.member.JoinService;
+import models.member.LoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.Errors;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/member")
@@ -16,6 +16,9 @@ public class MemberController {
 
     //@Autowired
     private final JoinValidator joinValidator; // 생성자를 통해 초기화 -> @RequiredArgsConstructor -> final추가
+    private final JoinService joinService;
+    private final LoginValidator loginValidator;
+    private final LoginService loginService;
 
     @GetMapping("/join") // /member/join
     public String join(@ModelAttribute RequestJoin join) { // GET방식일때도 Model(속성추가)주입 // th:field를 쓰려면 추가
@@ -41,20 +44,48 @@ public class MemberController {
 
         // 검증 성공 -> 회원가입 처리
 
+        joinService.join(join); // 위에 private final JoinService joinService; 추가 후 추가
+
         return "redirect:/member/login";
     }
 
     @GetMapping("/login") // /member/login
-    public String login() {
+    public String login(@ModelAttribute RequestLogin form, @CookieValue(name="saveId", required = false) String userId) {
+
+        if (userId != null) {
+
+        }
 
         return "member/login";
     }
 
     @PostMapping("/login")
-    public String loginPs() {
+    public String loginPs(@Valid RequestLogin form, Errors errors) {
 
-        return "member/login";
+        loginValidator.validate(form, errors);
+
+        if (errors.hasErrors()) { // 에러가 한개라도 검출이 되면
+            return "member/login";
+        }
+
+        // 유효성 검사 성공 -> 로그인 처리
+        loginService.login(form);
+
+        return "redirect:/";
+
     }
+
+    @RequestMapping("/logout")
+    public String logout(HttpSession session) {
+        session.invalidate();
+
+        return "redirect:/member/login";
+    }
+
+//    @InitBinder
+//    public void initBinder(WebDataBinder binder) {
+//        binder.setValidator(joinValidator);
+//    }
 
     /*
     @Autowired

@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="redirect 까지">
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/MobileValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/member/JoinValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/member/RequestJoin.java" afterDir="false" />
+    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="Bean Validation 까지">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/member/Adress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/member/LoginValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/JoinValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/JoinValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/RequestJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/RequestJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/RequestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/RequestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/JoinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/JoinService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/JoinValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/JoinValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/LoginValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/messages/commons.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages/commons.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -250,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698828672928</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Bean Validation 까지">
+      <option name="closed" value="true" />
+      <created>1698915219305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698915219306</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +304,7 @@
     <MESSAGE value="thymeleaf 설정" />
     <MESSAGE value="th:text 까지" />
     <MESSAGE value="redirect 까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="redirect 까지" />
+    <MESSAGE value="Bean Validation 까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bean Validation 까지" />
   </component>
 </project>

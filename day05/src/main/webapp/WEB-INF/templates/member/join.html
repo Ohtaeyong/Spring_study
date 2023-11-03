@@ -50,6 +50,29 @@
                     <div th:each="err : ${#fields.errors('mobile')}" th:text="${err}"></div>
                 </dd>
             </dl>
+            <!--
+            <dl>
+                <dt>취미</dt>
+                <dd>
+                    <input type="checkbox" name="hobby" value="취미1" id="hobby1" th:field="*{hobby}">
+                    <label for="hobby1">취미1</label>
+
+                    <input type="checkbox" name="hobby" value="취미2" id="hobby2" th:field="*{hobby}">
+                    <label for="hobby2">취미2</label>
+
+                    <input type="checkbox" name="hobby" value="취미3" id="hobby3" th:field="*{hobby}">
+                    <label for="hobby3">취미3</label>
+                </dd>
+            </dl>
+            -->
+            <dl>
+                <dt>주소</dt>
+                <dd>
+                    <input type="text" name="addr.zipcode" placeholder="우편번호" th:field="*{addr.zipcode}">
+                    <input type="text" name="addr.address" placeholder="주소" th:field="*{addr.address}">
+                    <input type="text" name="addr.addressSub" placeholder="나머지 주소" th:field="*{addr.addressSub}">
+                </dd>
+            </dl>
             <div>
                 <input type="checkbox" name="agree" value="true" id="agree" th:field="*{agree}">
                 <lable for="agree">회원가입 약관에 동의합니다.</lable>
