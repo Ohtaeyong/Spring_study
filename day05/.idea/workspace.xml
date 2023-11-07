@@ -4,27 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="Bean Validation 까지">
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/DBConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/member/Adress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/member/LoginValidator.java" afterDir="false" />
+    <list default="true" id="408af31d-a5ca-48f4-a9f6-f5c695286bd5" name="Changes" comment="1103 마무리">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/CommonInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/DBConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/MemberOnlyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/admin/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/admin/MemberSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/file/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/member/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/error/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/file/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/mypage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/DBConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/JoinValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/JoinValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/LoginValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/LoginValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/RequestJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/RequestJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/member/RequestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/member/RequestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/JoinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/JoinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/JoinValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/JoinValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/member/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/LoginValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/member/MemberDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/messages/commons.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages/commons.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,7 @@
       <list>
         <option value="Record" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -66,19 +70,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;thymeleaf&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day05/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "thymeleaf",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/오태용(B2)/6.서버프로그램 구현/spring_study/day05/src/main/resources",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day05\src\main\resources" />
       <recent name="C:\Users\Administrator\Desktop\오태용(B2)\6.서버프로그램 구현\spring_study\day05\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="config" />
     </key>
   </component>
   <component name="RunManager" selected="Smart Tomcat.Tomcat10">
@@ -270,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698915219306</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1103 마무리">
+      <option name="closed" value="true" />
+      <created>1699001342656</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699001342656</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +322,7 @@
     <MESSAGE value="th:text 까지" />
     <MESSAGE value="redirect 까지" />
     <MESSAGE value="Bean Validation 까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bean Validation 까지" />
+    <MESSAGE value="1103 마무리" />
+    <option name="LAST_COMMIT_MESSAGE" value="1103 마무리" />
   </component>
 </project>

@@ -29,8 +29,8 @@ public class LoginValidator implements Validator {
         2. 회원을 조회 -> 비밀번호 검증
         */
 
-        String userId = form.userId();
-        String userPw = form.userPw();
+        String userId = form.getUserId();
+        String userPw = form.getUserPw();
 
         Member member = null;
         if (userId != null && !userId.isBlank()) {

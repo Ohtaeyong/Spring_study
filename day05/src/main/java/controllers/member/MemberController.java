@@ -35,13 +35,13 @@ public class MemberController {
 
         //model.addAttribute("requestJoin", join); 지워도 join.html에서 자동 추가
 
-        joinValidator.validate(join, errors);
-
+        //joinValidator.validate(join, errors);
+        /*
         if (errors.hasErrors()) {
             // 검증 실패시 유입
             return "member/join";
         }
-
+*/
         // 검증 성공 -> 회원가입 처리
 
         joinService.join(join); // 위에 private final JoinService joinService; 추가 후 추가
@@ -53,7 +53,8 @@ public class MemberController {
     public String login(@ModelAttribute RequestLogin form, @CookieValue(name="saveId", required = false) String userId) {
 
         if (userId != null) {
-
+            form.setUserId(userId);
+            form.setSaveId(true);
         }
 
         return "member/login";
@@ -81,6 +82,16 @@ public class MemberController {
 
         return "redirect:/member/login";
     }
+
+    // MemberController 한정 예외 페이지 처리
+    /*
+    @ExceptionHandler(Exception.class)
+    public String errorHandler(Exception e, Model model) { // Bad, Duplicate 한꺼번에 하려면 Exception으로 하는게 나음
+        e.printStackTrace();
+        model.addAttribute("message", e.getMessage());
+        return "error/common";
+    }
+    */
 
 //    @InitBinder
 //    public void initBinder(WebDataBinder binder) {

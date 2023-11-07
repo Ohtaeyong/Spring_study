@@ -1,15 +1,20 @@
 package controllers.member;
 
 import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
 @Builder
-public record RequestLogin( // 스프링 6에서만 가능 컴파일버전 17이상에서만
+@NoArgsConstructor @AllArgsConstructor
+public class RequestLogin {
         @NotBlank
-        String userId,
+        private String userId;
 
         @NotBlank
-        String userPw,
+        private String userPw;
 
-        Boolean saveId
-) { }
+        private boolean saveId;
+}
